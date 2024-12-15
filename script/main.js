@@ -24,6 +24,10 @@ const fetchData = () => {
     });
 };
 
+document.onclick = () => {
+  document.getElementById("bgm").play()
+}
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
